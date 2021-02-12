@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,39 +11,51 @@
 		1B23FA4625D49F1F00945E1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA4525D49F1F00945E1F /* SceneDelegate.swift */; };
 		1B23FA4D25D49F1F00945E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B23FA4C25D49F1F00945E1F /* Assets.xcassets */; };
 		1B23FA5025D49F1F00945E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B23FA4E25D49F1F00945E1F /* LaunchScreen.storyboard */; };
-		1B23FA8725D4A1E300945E1F /* ImageListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8125D4A1E300945E1F /* ImageListPresenter.swift */; };
-		1B23FA8825D4A1E300945E1F /* ImageListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8225D4A1E300945E1F /* ImageListWorker.swift */; };
-		1B23FA8925D4A1E300945E1F /* ImageListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8325D4A1E300945E1F /* ImageListRouter.swift */; };
-		1B23FA8A25D4A1E300945E1F /* ImageListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8425D4A1E300945E1F /* ImageListModels.swift */; };
-		1B23FA8B25D4A1E300945E1F /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8525D4A1E300945E1F /* ImageListViewController.swift */; };
-		1B23FA8C25D4A1E300945E1F /* ImageListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8625D4A1E300945E1F /* ImageListInteractor.swift */; };
-		1B23FA9425D4A20D00945E1F /* ShowImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8E25D4A20D00945E1F /* ShowImagePresenter.swift */; };
-		1B23FA9525D4A20D00945E1F /* ShowImageWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA8F25D4A20D00945E1F /* ShowImageWorker.swift */; };
-		1B23FA9625D4A20D00945E1F /* ShowImageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA9025D4A20D00945E1F /* ShowImageRouter.swift */; };
-		1B23FA9725D4A20D00945E1F /* ShowImageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA9125D4A20D00945E1F /* ShowImageModels.swift */; };
-		1B23FA9825D4A20D00945E1F /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA9225D4A20D00945E1F /* ShowImageViewController.swift */; };
-		1B23FA9925D4A20D00945E1F /* ShowImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FA9325D4A20D00945E1F /* ShowImageInteractor.swift */; };
+		1B23FAB725D4A96500945E1F /* Pixabay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FAB625D4A96500945E1F /* Pixabay.swift */; };
+		1B23FAC225D4AB7C00945E1F /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FAC125D4AB7C00945E1F /* DateFunctions.swift */; };
+		1B23FAE025D4BB5900945E1F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FADF25D4BB5900945E1F /* NetworkManager.swift */; };
+		1B23FAE425D4BBCE00945E1F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23FAE325D4BBCE00945E1F /* ImageManager.swift */; };
+		1BF24D0E25D5D37E00F6B413 /* ShowImageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D0825D5D37E00F6B413 /* ShowImageRouter.swift */; };
+		1BF24D1025D5D37E00F6B413 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D0A25D5D37E00F6B413 /* ShowImageViewController.swift */; };
+		1BF24D1125D5D37E00F6B413 /* ShowImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D0B25D5D37E00F6B413 /* ShowImageInteractor.swift */; };
+		1BF24D1525D5D3B300F6B413 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D1425D5D3B300F6B413 /* ModuleBuilder.swift */; };
+		1BF24D1F25D5D41400F6B413 /* ImageListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D1925D5D41400F6B413 /* ImageListPresenter.swift */; };
+		1BF24D2125D5D41400F6B413 /* ImageListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D1B25D5D41400F6B413 /* ImageListRouter.swift */; };
+		1BF24D2325D5D41400F6B413 /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D1D25D5D41400F6B413 /* ImageListViewController.swift */; };
+		1BF24D2425D5D41400F6B413 /* ImageListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D1E25D5D41400F6B413 /* ImageListInteractor.swift */; };
+		1BF24D2D25D5D66B00F6B413 /* ImageListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D2C25D5D66B00F6B413 /* ImageListTableView.swift */; };
+		1BF24D3225D5D8FA00F6B413 /* ImageListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D3125D5D8FA00F6B413 /* ImageListCellView.swift */; };
+		1BF24D3825D5DB7300F6B413 /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D3725D5DB7300F6B413 /* ImageListViewModel.swift */; };
+		1BF24D4425D5E2F700F6B413 /* ShowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF24D4325D5E2F700F6B413 /* ShowImageView.swift */; };
+		B3FD4B76C55BB639C87104B2 /* Pods_Rentateam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D8A87D9C7A161FD664C230 /* Pods_Rentateam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B02FC4E93D14CB4F30EBD9 /* Pods-Rentateam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentateam.release.xcconfig"; path = "Target Support Files/Pods-Rentateam/Pods-Rentateam.release.xcconfig"; sourceTree = "<group>"; };
+		1629699B57BAC5F9A4F0CAA7 /* Pods-Rentateam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentateam.debug.xcconfig"; path = "Target Support Files/Pods-Rentateam/Pods-Rentateam.debug.xcconfig"; sourceTree = "<group>"; };
 		1B23FA4025D49F1F00945E1F /* Rentateam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rentateam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B23FA4325D49F1F00945E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B23FA4525D49F1F00945E1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B23FA4C25D49F1F00945E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B23FA4F25D49F1F00945E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B23FA5125D49F1F00945E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B23FA8125D4A1E300945E1F /* ImageListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListPresenter.swift; sourceTree = "<group>"; };
-		1B23FA8225D4A1E300945E1F /* ImageListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListWorker.swift; sourceTree = "<group>"; };
-		1B23FA8325D4A1E300945E1F /* ImageListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListRouter.swift; sourceTree = "<group>"; };
-		1B23FA8425D4A1E300945E1F /* ImageListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListModels.swift; sourceTree = "<group>"; };
-		1B23FA8525D4A1E300945E1F /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
-		1B23FA8625D4A1E300945E1F /* ImageListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListInteractor.swift; sourceTree = "<group>"; };
-		1B23FA8E25D4A20D00945E1F /* ShowImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImagePresenter.swift; sourceTree = "<group>"; };
-		1B23FA8F25D4A20D00945E1F /* ShowImageWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageWorker.swift; sourceTree = "<group>"; };
-		1B23FA9025D4A20D00945E1F /* ShowImageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageRouter.swift; sourceTree = "<group>"; };
-		1B23FA9125D4A20D00945E1F /* ShowImageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageModels.swift; sourceTree = "<group>"; };
-		1B23FA9225D4A20D00945E1F /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
-		1B23FA9325D4A20D00945E1F /* ShowImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageInteractor.swift; sourceTree = "<group>"; };
+		1B23FAB625D4A96500945E1F /* Pixabay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixabay.swift; sourceTree = "<group>"; };
+		1B23FAC125D4AB7C00945E1F /* DateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		1B23FADF25D4BB5900945E1F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1B23FAE325D4BBCE00945E1F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		1BF24D0825D5D37E00F6B413 /* ShowImageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageRouter.swift; sourceTree = "<group>"; };
+		1BF24D0A25D5D37E00F6B413 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		1BF24D0B25D5D37E00F6B413 /* ShowImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageInteractor.swift; sourceTree = "<group>"; };
+		1BF24D1425D5D3B300F6B413 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		1BF24D1925D5D41400F6B413 /* ImageListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListPresenter.swift; sourceTree = "<group>"; };
+		1BF24D1B25D5D41400F6B413 /* ImageListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListRouter.swift; sourceTree = "<group>"; };
+		1BF24D1D25D5D41400F6B413 /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
+		1BF24D1E25D5D41400F6B413 /* ImageListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListInteractor.swift; sourceTree = "<group>"; };
+		1BF24D2C25D5D66B00F6B413 /* ImageListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListTableView.swift; sourceTree = "<group>"; };
+		1BF24D3125D5D8FA00F6B413 /* ImageListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListCellView.swift; sourceTree = "<group>"; };
+		1BF24D3725D5DB7300F6B413 /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		1BF24D4325D5E2F700F6B413 /* ShowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageView.swift; sourceTree = "<group>"; };
+		D1D8A87D9C7A161FD664C230 /* Pods_Rentateam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rentateam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FD4B76C55BB639C87104B2 /* Pods_Rentateam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,8 @@
 			children = (
 				1B23FA4225D49F1F00945E1F /* Rentateam */,
 				1B23FA4125D49F1F00945E1F /* Products */,
+				44F23D14339514E0D7A5C432 /* Pods */,
+				2426E8DCF1517AFC275CC95B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +95,8 @@
 				1B23FA5B25D4A00800945E1F /* Models */,
 				1B23FA5C25D4A01400945E1F /* Services */,
 				1B23FA5D25D4A02B00945E1F /* Storyboard */,
-				1B23FA5E25D4A03700945E1F /* Supporting Files */,
 				1B23FA5F25D4A04400945E1F /* Resources */,
+				1BF24CF525D5747D00F6B413 /* System */,
 			);
 			path = Rentateam;
 			sourceTree = "<group>";
@@ -98,6 +113,8 @@
 		1B23FA5B25D4A00800945E1F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B23FAB625D4A96500945E1F /* Pixabay.swift */,
+				1BF24D3725D5DB7300F6B413 /* ImageListViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +122,9 @@
 		1B23FA5C25D4A01400945E1F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1B23FAC125D4AB7C00945E1F /* DateFunctions.swift */,
+				1B23FADF25D4BB5900945E1F /* NetworkManager.swift */,
+				1B23FAE325D4BBCE00945E1F /* ImageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -115,16 +135,6 @@
 				1B23FA4E25D49F1F00945E1F /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		1B23FA5E25D4A03700945E1F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B23FA4325D49F1F00945E1F /* AppDelegate.swift */,
-				1B23FA4525D49F1F00945E1F /* SceneDelegate.swift */,
-				1B23FA5125D49F1F00945E1F /* Info.plist */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1B23FA5F25D4A04400945E1F /* Resources */ = {
@@ -138,12 +148,11 @@
 		1B23FA6125D4A0D300945E1F /* ImageList */ = {
 			isa = PBXGroup;
 			children = (
-				1B23FA8525D4A1E300945E1F /* ImageListViewController.swift */,
-				1B23FA8625D4A1E300945E1F /* ImageListInteractor.swift */,
-				1B23FA8125D4A1E300945E1F /* ImageListPresenter.swift */,
-				1B23FA8425D4A1E300945E1F /* ImageListModels.swift */,
-				1B23FA8325D4A1E300945E1F /* ImageListRouter.swift */,
-				1B23FA8225D4A1E300945E1F /* ImageListWorker.swift */,
+				1BF24D3025D5D8AF00F6B413 /* UI */,
+				1BF24D1D25D5D41400F6B413 /* ImageListViewController.swift */,
+				1BF24D1E25D5D41400F6B413 /* ImageListInteractor.swift */,
+				1BF24D1925D5D41400F6B413 /* ImageListPresenter.swift */,
+				1BF24D1B25D5D41400F6B413 /* ImageListRouter.swift */,
 			);
 			path = ImageList;
 			sourceTree = "<group>";
@@ -151,14 +160,57 @@
 		1B23FA6225D4A0EB00945E1F /* ShowImage */ = {
 			isa = PBXGroup;
 			children = (
-				1B23FA9225D4A20D00945E1F /* ShowImageViewController.swift */,
-				1B23FA9325D4A20D00945E1F /* ShowImageInteractor.swift */,
-				1B23FA8E25D4A20D00945E1F /* ShowImagePresenter.swift */,
-				1B23FA9125D4A20D00945E1F /* ShowImageModels.swift */,
-				1B23FA9025D4A20D00945E1F /* ShowImageRouter.swift */,
-				1B23FA8F25D4A20D00945E1F /* ShowImageWorker.swift */,
+				1BF24D4225D5E2D500F6B413 /* UI */,
+				1BF24D0A25D5D37E00F6B413 /* ShowImageViewController.swift */,
+				1BF24D0B25D5D37E00F6B413 /* ShowImageInteractor.swift */,
+				1BF24D0825D5D37E00F6B413 /* ShowImageRouter.swift */,
 			);
 			path = ShowImage;
+			sourceTree = "<group>";
+		};
+		1BF24CF525D5747D00F6B413 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1B23FA4325D49F1F00945E1F /* AppDelegate.swift */,
+				1B23FA4525D49F1F00945E1F /* SceneDelegate.swift */,
+				1BF24D1425D5D3B300F6B413 /* ModuleBuilder.swift */,
+				1B23FA5125D49F1F00945E1F /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		1BF24D3025D5D8AF00F6B413 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1BF24D2C25D5D66B00F6B413 /* ImageListTableView.swift */,
+				1BF24D3125D5D8FA00F6B413 /* ImageListCellView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1BF24D4225D5E2D500F6B413 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1BF24D4325D5E2F700F6B413 /* ShowImageView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2426E8DCF1517AFC275CC95B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8A87D9C7A161FD664C230 /* Pods_Rentateam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F23D14339514E0D7A5C432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1629699B57BAC5F9A4F0CAA7 /* Pods-Rentateam.debug.xcconfig */,
+				00B02FC4E93D14CB4F30EBD9 /* Pods-Rentateam.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B23FA5425D49F1F00945E1F /* Build configuration list for PBXNativeTarget "Rentateam" */;
 			buildPhases = (
+				012DC039842E11EE4497AEB4 /* [CP] Check Pods Manifest.lock */,
 				1B23FA3C25D49F1F00945E1F /* Sources */,
 				1B23FA3D25D49F1F00945E1F /* Frameworks */,
 				1B23FA3E25D49F1F00945E1F /* Resources */,
+				961E6147D10984ED6BA949BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,25 +280,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		012DC039842E11EE4497AEB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rentateam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961E6147D10984ED6BA949BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rentateam/Pods-Rentateam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rentateam/Pods-Rentateam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rentateam/Pods-Rentateam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B23FA3C25D49F1F00945E1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B23FA9425D4A20D00945E1F /* ShowImagePresenter.swift in Sources */,
+				1BF24D2D25D5D66B00F6B413 /* ImageListTableView.swift in Sources */,
 				1B23FA4425D49F1F00945E1F /* AppDelegate.swift in Sources */,
-				1B23FA8825D4A1E300945E1F /* ImageListWorker.swift in Sources */,
-				1B23FA8725D4A1E300945E1F /* ImageListPresenter.swift in Sources */,
-				1B23FA9825D4A20D00945E1F /* ShowImageViewController.swift in Sources */,
-				1B23FA9625D4A20D00945E1F /* ShowImageRouter.swift in Sources */,
-				1B23FA9525D4A20D00945E1F /* ShowImageWorker.swift in Sources */,
-				1B23FA9725D4A20D00945E1F /* ShowImageModels.swift in Sources */,
-				1B23FA8C25D4A1E300945E1F /* ImageListInteractor.swift in Sources */,
-				1B23FA8925D4A1E300945E1F /* ImageListRouter.swift in Sources */,
+				1BF24D2425D5D41400F6B413 /* ImageListInteractor.swift in Sources */,
+				1BF24D2325D5D41400F6B413 /* ImageListViewController.swift in Sources */,
+				1BF24D0E25D5D37E00F6B413 /* ShowImageRouter.swift in Sources */,
 				1B23FA4625D49F1F00945E1F /* SceneDelegate.swift in Sources */,
-				1B23FA9925D4A20D00945E1F /* ShowImageInteractor.swift in Sources */,
-				1B23FA8B25D4A1E300945E1F /* ImageListViewController.swift in Sources */,
-				1B23FA8A25D4A1E300945E1F /* ImageListModels.swift in Sources */,
+				1BF24D1F25D5D41400F6B413 /* ImageListPresenter.swift in Sources */,
+				1B23FAE425D4BBCE00945E1F /* ImageManager.swift in Sources */,
+				1B23FAC225D4AB7C00945E1F /* DateFunctions.swift in Sources */,
+				1BF24D3225D5D8FA00F6B413 /* ImageListCellView.swift in Sources */,
+				1BF24D1125D5D37E00F6B413 /* ShowImageInteractor.swift in Sources */,
+				1BF24D1025D5D37E00F6B413 /* ShowImageViewController.swift in Sources */,
+				1B23FAE025D4BB5900945E1F /* NetworkManager.swift in Sources */,
+				1BF24D1525D5D3B300F6B413 /* ModuleBuilder.swift in Sources */,
+				1BF24D3825D5DB7300F6B413 /* ImageListViewModel.swift in Sources */,
+				1B23FAB725D4A96500945E1F /* Pixabay.swift in Sources */,
+				1BF24D4425D5E2F700F6B413 /* ShowImageView.swift in Sources */,
+				1BF24D2125D5D41400F6B413 /* ImageListRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +480,13 @@
 		};
 		1B23FA5525D49F1F00945E1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1629699B57BAC5F9A4F0CAA7 /* Pods-Rentateam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
-				INFOPLIST_FILE = "$(SRCROOT)/Rentateam/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rentateam/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -400,12 +501,13 @@
 		};
 		1B23FA5625D49F1F00945E1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B02FC4E93D14CB4F30EBD9 /* Pods-Rentateam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
-				INFOPLIST_FILE = "$(SRCROOT)/Rentateam/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rentateam/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
